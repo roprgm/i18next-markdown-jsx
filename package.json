@@ -1,5 +1,5 @@
 {
-  "name": "i18next-markdown-jsx",
+  "name": "i18next-markdown-jsx-plugin",
   "version": "1.0.3",
   "main": "./lib/index.js",
   "module": "./src/index.js",
