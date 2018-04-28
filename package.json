@@ -1,0 +1,21 @@
+{
+  "name": "i18next-markdown-jsx",
+  "version": "1.0.1",
+  "main": "./lib/index.js",
+  "module": "./src/index.js",
+  "repository": "git@github.com:rbelfiore/i18next-markdown-jsx.git",
+  "author": "Rodrigo Belfiore <rodrigobelfiore@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "preversion": "yarn run build && git push",
+    "postversion": "git push && git push --tags"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "markdown-to-jsx": "^6.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
