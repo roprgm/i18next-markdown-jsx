@@ -1,11 +1,17 @@
 {
   "name": "i18next-markdown-jsx-plugin",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "./lib/index.js",
   "module": "./src/index.js",
   "repository": "git@github.com:roprgm/i18next-markdown-jsx.git",
   "author": "Rodrigo Belfiore <rodrigobelfiore@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "i18next",
+    "markdown",
+    "jsx",
+    "react"
+  ],
   "scripts": {
     "test": "echo 'no tests'",
     "build": "babel src --out-dir lib",
