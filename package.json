@@ -9,14 +9,14 @@
   "scripts": {
     "test": "echo 'no tests'",
     "build": "babel src --out-dir lib",
-    "preversion": "yarn run build && git push",
+    "preversion": "yarn run build",
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
     "markdown-to-jsx": "^6.6.1"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
     "babel-cli": "^6.26.0"
   }
 }
