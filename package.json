@@ -13,16 +13,24 @@
     "react"
   ],
   "scripts": {
-    "test": "echo 'no tests'",
+    "test": "jest",
     "build": "babel src --out-dir lib",
     "preversion": "yarn run build",
     "postversion": "git push && git push --tags"
   },
+  "jest": {
+    "testMatch": ["**/tests/**/*.js"]
+  },
   "dependencies": {
+    "i18next": "^11.2.3",
     "markdown-to-jsx": "^6.6.1"
   },
   "devDependencies": {
+    "@types/jest": "^22.2.3",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
   }
 }

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`markdown jsx correctly translates key with markdown 1`] = `"<strong>Test 1</strong>"`;
