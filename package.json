@@ -1,6 +1,6 @@
 {
   "name": "i18next-markdown-jsx-plugin",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "./lib/index.js",
   "module": "./src/index.js",
   "repository": "git@github.com:roprgm/i18next-markdown-jsx.git",
@@ -19,7 +19,9 @@
     "postversion": "git push && git push --tags"
   },
   "jest": {
-    "testMatch": ["**/tests/**/*.js"]
+    "testMatch": [
+      "**/tests/**/*.js"
+    ]
   },
   "dependencies": {
     "i18next": "^11.2.3",
