@@ -24,7 +24,7 @@
     ]
   },
   "dependencies": {
-    "i18next": "^11.2.3",
+    "i18next": "^19.6.2",
     "markdown-to-jsx": "^6.6.1"
   },
   "devDependencies": {
